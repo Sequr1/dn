@@ -2,7 +2,7 @@ import RevealText from './RevealText';
 
 export default function ClosingSection() {
   return (
-    <section className="relative overflow-hidden min-h-screen flex flex-col justify-between">
+    <section className="relative overflow-hidden pt-32 pb-20 flex flex-col">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-deep-purple/10 to-deep-black" />
 
@@ -11,7 +11,7 @@ export default function ClosingSection() {
         <div className="w-[600px] h-[400px] rounded-full bg-gradient-to-t from-warm-orange/12 via-light-purple/8 to-transparent blur-3xl animate-gentle-pulse" />
       </div>
 
-      <div className="relative z-10 site-container section-space w-full flex flex-col justify-between flex-1">
+      <div className="relative z-10 site-container section-space w-full flex flex-col flex-1">
         <div className="text-column mx-auto text-center">
 
           {/* Headline */}
@@ -81,7 +81,7 @@ export default function ClosingSection() {
 
         {/* ===== FOOTER ===== */}
         <RevealText delay={1.2}>
-          <footer className="mt-16 pb-6 text-center text-sm text-text-muted">
+          <footer className="mt-20 pb-10 text-center text-sm text-text-muted">
             <div className="mb-3 h-px w-24 mx-auto bg-gradient-to-r from-transparent via-light-purple/20 to-transparent" />
 
             <p>
