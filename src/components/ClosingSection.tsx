@@ -2,7 +2,7 @@ import RevealText from './RevealText';
 
 export default function ClosingSection() {
   return (
-    <section className="relative overflow-hidden pt-32 pb-20 flex flex-col">
+    <section className="relative overflow-hidden flex flex-col pt-32 pb-20">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-deep-purple/10 to-deep-black" />
 
