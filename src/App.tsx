@@ -8,7 +8,7 @@ import TrustSection from './components/TrustSection';
 import PackagesSection from './components/PackagesSection';
 import NumberSection from './components/NumberSection';
 import ClosingSection from './components/ClosingSection';
-import Footer from './Footer';
+import Footer from './components/Footer';
 
 function Divider({ variant = 'purple' }: { variant?: 'purple' | 'orange' | 'mixed' }) {
   const colors = {
