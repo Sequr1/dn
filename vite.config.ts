@@ -12,6 +12,10 @@ export default defineConfig({
     react(), 
     tailwindcss()
   ],
+  build: {
+    minify: false, // Отключаем сжатие для проверки
+    sourcemap: true // Поможет увидеть ошибки, если они появятся
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
