@@ -1,7 +1,7 @@
 import RevealText from './RevealText';
 
 const points = [
-  { text: 'Тэт-а-тэт диалог', color: 'from-light-purple/50 to-vivid-purple/30' },
+  { text: 'Тет-а-тет диалог', color: 'from-light-purple/50 to-vivid-purple/30' },
   { text: '1 час, в котором исчезает лишнее', color: 'from-warm-orange/40 to-soft-orange/30' },
   { text: 'Погружение внутрь себя', color: 'from-light-purple/40 to-warm-orange/20' },
   { text: 'Без давления. Без навязывания.', color: 'from-soft-orange/40 to-gold/30' },
