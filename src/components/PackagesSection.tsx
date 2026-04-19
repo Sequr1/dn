@@ -3,7 +3,7 @@ import RevealText from './RevealText';
 const packages = [
   {
     name: 'Начало',
-    price: '500',
+    price: '1000',
     tagline: 'Первый шаг к ясности',
     features: [
       'Разбор ситуации',
